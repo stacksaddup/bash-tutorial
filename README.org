@@ -1,3 +1,1 @@
 * Bash Tutorial Examples
-
-Testing markups like *bold*, /italic/, _underline_,  ~code~, and =verbatim=.
