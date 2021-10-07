@@ -1,8 +1,8 @@
 * Bash Tutorial Examples
 
-A common issue the new Bash programmers are facing is that they can barely find the *real-world* examples on most of the materials.
+A common issue the new Bash programmers face is that they can barely find the *real-world* examples on most materials.
 
-That's why I created the [[https://www.youtube.com/channel/UCL5FUdGPVuWdfTBBXHcsLQg][Stacks Add Up]] to teach people learn technology skills with more ease. And this is the place to put all the Bash examples mentioned in my videos.
+That's why I created the [[https://www.youtube.com/channel/UCL5FUdGPVuWdfTBBXHcsLQg][Stacks Add Up]] to teach people to learn technology skills with more ease. And this is the place to put all the Bash examples mentioned in my videos.
 
 Hope they can help you.
 
