@@ -4,6 +4,6 @@ A common issue the new Bash programmers face is that they can barely find the *r
 
 That's why I created the [[https://www.youtube.com/channel/UCL5FUdGPVuWdfTBBXHcsLQg][Stacks Add Up]] to teach people to learn technology skills with more ease. And this is the place to put all the Bash examples mentioned in my videos.
 
-Hope they can help you.
+Hope they can help you finish the tasks at hand more quickly.
 
-Happy scripting!
+Happy stacking!
