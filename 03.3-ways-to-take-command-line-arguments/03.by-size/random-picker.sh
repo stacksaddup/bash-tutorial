@@ -1,7 +1,19 @@
 #!/usr/bin/env bash
 
+function usage() {
+    cat <<EOF
+Usage: $(basename $0) FILE [OPTIONS]
+
+  Randomly pick an item from the given file.
+
+Options:
+  --help        Show this message and exit.
+  --repeat N    Pick N times. (default: 1)
+EOF
+}
+
 if (( $# < 1 )); then
-    echo "ERROR: missing the FILE argument"
+    usage
     exit 1
 fi
 
@@ -15,7 +27,7 @@ do
 	    shift
 
 	    if [[ -z $1 ]]; then
-		echo "ERROR: missing REPEAT value"
+		usage
 		exit 1
 	    fi
 
@@ -23,8 +35,8 @@ do
 	    shift
 	    ;;
 	-*)
-	    echo "ERROR: unknown argument: $1"
-	    exit 1
+	    usage
+	    exit
 	    ;;
 	*)
 	    shift
