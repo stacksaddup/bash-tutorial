@@ -1,0 +1,5 @@
+Request method: GET
+Request URL: https://1.1.1.1:5000/api/user/1/
+Response status: 200
+Response time: 164ms
+Response body: {"id": 1, "first-name": "Kristin", "last-name": "Johnston"}
