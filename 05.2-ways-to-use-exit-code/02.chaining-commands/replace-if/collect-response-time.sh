@@ -6,4 +6,4 @@
 # fi
 
 # another way
-ls *.log > /dev/null && grep -h 'Response time:' *.log
+ls *.log &> /dev/null && grep -h 'Response time:' *.log
